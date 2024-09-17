@@ -1,4 +1,73 @@
-[schemeNames{
-1{
-ihoih}
-}]
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "age": 29,
+      "active": true,
+      "address": {
+        "street": "123 Main St",
+        "city": "Springfield",
+        "zip": "62704"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "age": 34,
+      "active": false,
+      "address": {
+        "street": "456 Elm St",
+        "city": "Shelbyville",
+        "zip": "62705"
+      }
+    }
+  ],
+  "settings": {
+    "theme": "dark",
+    "notifications": true,
+    "language": "en",
+    "autoLogin": false
+  },
+  "products": [
+    {
+      "id": 101,
+      "name": "Laptop",
+      "category": "Electronics",
+      "price": 799.99,
+      "stock": 25
+    },
+    {
+      "id": 102,
+      "name": "Smartphone",
+      "category": "Electronics",
+      "price": 599.99,
+      "stock": 50
+    },
+    {
+      "id": 103,
+      "name": "Coffee Maker",
+      "category": "Home Appliances",
+      "price": 49.99,
+      "stock": 100
+    }
+  ],
+  "orders": [
+    {
+      "orderId": 1001,
+      "userId": 1,
+      "products": [101, 103],
+      "total": 849.98,
+      "status": "shipped"
+    },
+    {
+      "orderId": 1002,
+      "userId": 2,
+      "products": [102],
+      "total": 599.99,
+      "status": "pending"
+    }
+  ]
+}
